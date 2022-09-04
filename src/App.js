@@ -5,6 +5,7 @@ import UsersList from './components/Users/UsersList'
 
 function App() {
 	const [usersList, setUsersList] = useState([])
+	const arrLength = usersList.length
 
 	const addUserHandler = (username, userAge) => {
 		setUsersList((prevUsersList) => {
@@ -15,7 +16,7 @@ function App() {
 	return (
 		<div>
 			<AddUser onAddUser={addUserHandler} />
-			<UsersList users={usersList}></UsersList>
+			{arrLength !== 0 && <UsersList users={usersList}></UsersList>}
 		</div>
 	)
 }
