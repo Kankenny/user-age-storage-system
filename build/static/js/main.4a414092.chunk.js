@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-the-complete-guide"]=this["webpackJsonpreact-the-complete-guide"]||[]).push([[0],{13:function(e,t,c){},15:function(e,t,c){"use strict";c.r(t);c(1);var n=c(3),r=c.n(n),a=(c(13),c(4)),i=c.n(a),o=c(0),d=function(e){return Object(o.jsx)("div",{className:i.a.card,children:e.children})};var s=function(){return Object(o.jsx)("div",{children:Object(o.jsx)(d,{})})};r.a.createRoot(document.getElementById("root")).render(Object(o.jsx)(s,{}))},4:function(e,t,c){e.exports={card:"Card_card__1m44e"}}},[[15,1,2]]]);
+//# sourceMappingURL=main.4a414092.chunk.js.map
